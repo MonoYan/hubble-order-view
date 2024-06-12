@@ -4,6 +4,8 @@
 
 This project is designed to create an interface for viewing e-commerce orders placed on the XiaoHongShu marketplace. The orders have been shipped by the warehouse but have not yet been received by the end customer. The interface is built using React and AntDesign, with network requests handled by Axios. The project is constructed using VITE.
 
+You can preview the project at the following address: [https://hubble-order-view.vercel.app/](https://hubble-order-view.vercel.app/)
+
 ## Project Setup
 
 To run this project, follow these steps:
