@@ -1,0 +1,31 @@
+.container {
+  padding: 24px;
+  min-width: 100%;
+  background-color: white;
+  border-radius: 8px;
+  border: #f0f0f0 1px solid;
+  .top {
+    width: 100%;
+  }
+
+  .order-id {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+
+  .status-tag {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+  }
+
+  .time-tag {
+    font-size: 14px;
+    font-weight: bold;
+    color: #787878;
+    display: flex;
+    align-items: center;
+  }
+}

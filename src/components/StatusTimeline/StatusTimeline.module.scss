@@ -1,0 +1,27 @@
+.container {
+  margin-top: 1rem;
+}
+
+.timeline-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.status {
+  width: 35%;
+  font-weight: 600;
+  position: relative;
+
+  &::after {
+    content: ":";
+    position: absolute;
+    right: 5px;
+    color: #6e6e6e;
+  }
+}
+
+.date {
+  flex: 1;
+  color: #6e6e6e;
+}
